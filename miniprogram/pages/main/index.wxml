@@ -1,0 +1,45 @@
+<view class="main-container">
+  <swiper wx:if="{{ swiperList.length }}" class="swiper-wrapper" autoplay="true" indicator-dots="true" indicator-color="rgba(255,255,255, 0.6)" indicator-active-color="#fff">
+    <swiper-item wx:for="{{swiperList}}" wx:key="index">
+      <image bind:tap="onSwiperTab" data-item="{{item}}" src="{{item.showURL}}" alt="#" />
+    </swiper-item>
+  </swiper>
+  <view class="content">
+    <view class="login-card">
+      <view class="login-wrapper">
+        <view class="login-logo-text">
+          <image src="../../assets/images/app.png" />
+          <view class="login-text">
+            <view>尊敬的用户</view>
+            <view>会员可享用【限时优惠】等多项权益</view>
+          </view>
+        </view>
+        <view class="login-btn">授权登陆</view>
+      </view>
+    </view>
+    <view class="waimai-card">
+      <view class="card-1">
+        <text class="card-1-title">自提</text>
+      </view>
+      <view class="card-2">
+        <text class="card-2-title">雪王外送</text>
+      </view>
+    </view>
+    <view class="pindan">
+      <view>好友拼单</view>
+      <view>快速选购，自动分账</view>
+    </view>
+    <view class="fuli">
+      <view>
+        <image src="../../assets/images/banner-1.jpg" />
+      </view>
+      <view>
+        <image src="../../assets/images/banner-2.jpg" />
+      </view>
+      <view>
+        <image src="../../assets/images/banner-3.jpg" />
+      </view>
+    </view>
+    <view class="info-text">甜蜜咨询</view>
+  </view>
+</view>
