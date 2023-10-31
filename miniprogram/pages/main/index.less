@@ -29,6 +29,8 @@
   justify-content: center;
   flex-direction: column;
   // margin-top: 240px;
+  padding-bottom: 24px;
+  background-color: #fff;
 
   .login-card {
     // position: absolute;
@@ -135,6 +137,9 @@
     }
 
     :nth-child(2) {
+      line-height: 60px;
+      text-align: center;
+      vertical-align: middle;
       color: rgb(136, 133, 133);
       font-size: x-small;
     }
@@ -167,9 +172,16 @@
 
   .info-text {
     display: flex;
+    flex-direction: column;
     justify-content: start;
     width: 96vw;
     margin-top: 24px;
     font-weight: 500;
+
+    :nth-child(2) {
+      width: 100%;
+      height: 100px;
+      background-color: rgb(105, 231, 225);
+    }
   }
 }

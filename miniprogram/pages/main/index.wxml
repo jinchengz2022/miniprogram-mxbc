@@ -27,7 +27,7 @@
     </view>
     <view class="pindan">
       <view>好友拼单</view>
-      <view>快速选购，自动分账</view>
+      <view>快速选购，自动分账   > </view>
     </view>
     <view class="fuli">
       <view>
@@ -40,6 +40,9 @@
         <image src="../../assets/images/banner-3.jpg" />
       </view>
     </view>
-    <view class="info-text">甜蜜咨询</view>
+    <view class="info-text">
+    <view>甜蜜咨询</view>
+    <view></view>
+    </view>
   </view>
 </view>
